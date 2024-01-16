@@ -93,13 +93,7 @@
     <!-- Header End -->
 
 
-    <!-- Categories Start -->
-       <!-- Categories end -->
- 
-    <!-- Categories end -->
-
-
-    <!-- Courses Start -->
+<!-- Courses Start -->
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
@@ -112,37 +106,34 @@
                         <div class="position-relative overflow-hidden">
                             <img class="img-fluid" src="img/course-1.jpg" alt="">
                             <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                                <!-- <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>  -->
+                                <!-- <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>   -->
                                 <!-- <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a> -->
-                               
-                               
-                               
-                               <!-- ........... -->
-                                <button id="showInfo" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;"">
+                                <button id="showInfo1" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">
                                     Read More
                                   </button>
                                 
-                                  <div id="infoBox" class="info-box bg-white h-64 w-64 mt-4 shadow-md">
-                                    <p>This is information Box about Open infotech</p>
-                                    <p>We are a mobile app development company. Setting a benchmark in making quality mobile apps, we are now perceived as one of the best entities providing end to end solutions for mobile apps. We are highly skilled and immensely motivated team of technical experts in our line of business.</p>
+                                  <div id="infoBox1" class="info-box bg-primary text-white w-100 p-4 shadow-md rounded-md">
+                                    <p>Open Infotech</p>
+                                    <p>We are a mobile app development company. 
+                                        Setting a benchmark in making quality mobile apps, we are now perceived as one of the best entities providing end to end solutions for mobile apps. We are highly skilled and immensely motivated team of technical experts in our line of business.</p>
                                   </div>
-                                  
-                                <script>
-                                  const showInfoButton = document.getElementById('showInfo');
-                                  const infoBox = document.getElementById('infoBox');
                                 
-                                  showInfoButton.addEventListener('click', function () {
-                                    infoBox.style.display = 'block';
-                                  });
+                                  <script>
+                                    const showInfoButton1 = document.getElementById('showInfo1');
+                                    const infoBox1 = document.getElementById('infoBox1');
                                 
-                                  document.addEventListener('click', function (event) {
-                                    const isClickInside = infoBox.contains(event.target) || showInfoButton.contains(event.target);
+                                    showInfoButton1.addEventListener('click', function () {
+                                      infoBox1.style.display = 'block';
+                                    });
                                 
-                                    if (!isClickInside) {
-                                      infoBox.style.display = 'none';
-                                    }
-                                  });
-                                </script>
+                                    document.addEventListener('click', function (event) {
+                                      const isClickInside = infoBox1.contains(event.target) || showInfoButton1.contains(event.target);
+                                
+                                      if (!isClickInside) {
+                                        infoBox1.style.display = 'none';
+                                      }
+                                    });
+                                  </script>
                             </div>
                         </div>
                         
@@ -170,33 +161,34 @@
                         <div class="position-relative overflow-hidden">
                             <img class="img-fluid" src="img/course-2.jpg" alt="">
                             <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a> 
+                                <!-- <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a> -->
                                 <!-- <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a> -->
-                                <!-- <button id="showInfo" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;"">
+                                <button id="showInfo2" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;"">
                                     Read More
                                   </button>
                                 
-                                  <div id="infoBox" class="info-box bg-white h-64 w-64 mt-4 shadow-md">
-                                    <p>This is information Box about Open infotech</p>
-                                    <p>We are a mobile app development company. Setting a benchmark in making quality mobile apps, we are now perceived as one of the best entities providing end to end solutions for mobile apps. We are highly skilled and immensely motivated team of technical experts in our line of business.</p>
+                                  <div id="infoBox2" class="info-box bg-primary text-white w-100 p-4 shadow-md rounded-md">
+                                    <p>Open Infotech</p>
+                                    <p>We are a mobile app development company. 
+                                        Setting a benchmark in making quality mobile apps, we are now perceived as one of the best entities providing end to end solutions for mobile apps. We are highly skilled and immensely motivated team of technical experts in our line of business.</p>
                                   </div>
-                                  
-                                <script>
-                                  const showInfoButton = document.getElementById('showInfo');
-                                  const infoBox = document.getElementById('infoBox');
                                 
-                                  showInfoButton.addEventListener('click', function () {
-                                    infoBox.style.display = 'block';
-                                  });
+                                  <script>
+                                    const showInfoButton2 = document.getElementById('showInfo2');
+                                    const infoBox2 = document.getElementById('infoBox2');
                                 
-                                  document.addEventListener('click', function (event) {
-                                    const isClickInside = infoBox.contains(event.target) || showInfoButton.contains(event.target);
+                                    showInfoButton2.addEventListener('click', function () {
+                                      infoBox2.style.display = 'block';
+                                    });
                                 
-                                    if (!isClickInside) {
-                                      infoBox.style.display = 'none';
-                                    }
-                                  });
-                                </script> -->
+                                    document.addEventListener('click', function (event) {
+                                      const isClickInside = infoBox2.contains(event.target) || showInfoButton2.contains(event.target);
+                                
+                                      if (!isClickInside) {
+                                        infoBox2.style.display = 'none';
+                                      }
+                                    });
+                                  </script>
                             </div>
                         </div>
 
@@ -207,7 +199,7 @@
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-transparant"></small>
                                 <small>(123)</small>
                             </div>
                             <h5 class="mb-4">Backend Training and Development</h5>
@@ -224,25 +216,35 @@
                         <div class="position-relative overflow-hidden">
                             <img class="img-fluid" src="img/course-2.jpg" alt="">
                             <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                                 <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a> 
+                                 <!-- <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>  -->
                                
                                 <!-- <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a> -->
-                                <!-- <button id="showInfo2" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">
+                                <button id="showInfo3" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;"">
                                     Read More
                                   </button>
                                 
-                                  <div id="infoBox2" class="info-box2 bg-white h-64 w-64 mt-4 shadow-md">
-                                    <p>This is information Box about Open infotech</p>
-                                    <p>We are a mobile app development company. Setting a benchmark in making quality mobile apps, we are now perceived as one of the best entities providing end to end solutions for mobile apps. We are highly skilled and immensely motivated team of technical experts in our line of business.....................................mmm</p>
+                                  <div id="infoBox3" class="info-box bg-primary text-white w-100 p-4 shadow-md rounded-md">
+                                    <p>Open Infotech</p>
+                                    <p>We are a mobile app development company. 
+                                        Setting a benchmark in making quality mobile apps, we are now perceived as one of the best entities providing end to end solutions for mobile apps. We are highly skilled and immensely motivated team of technical experts in our line of business.</p>
                                   </div>
                                 
                                   <script>
-                                    document.getElementById('showInfo2').addEventListener('click', function () {
-                                      document.getElementById('infoBox2').style.display = 'block';
-
-                                      
+                                    const showInfoButton3 = document.getElementById('showInfo3');
+                                    const infoBox3 = document.getElementById('infoBox3');
+                                
+                                    showInfoButton3.addEventListener('click', function () {
+                                      infoBox3.style.display = 'block';
                                     });
-                                  </script> -->
+                                
+                                    document.addEventListener('click', function (event) {
+                                      const isClickInside = infoBox3.contains(event.target) || showInfoButton3.contains(event.target);
+                                
+                                      if (!isClickInside) {
+                                        infoBox3.style.display = 'none';
+                                      }
+                                    });
+                                  </script>
                             
                             </div>
                         </div>
@@ -254,7 +256,7 @@
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-transparant"></small>
                                 <small>(123)</small>
                             </div>
                             <h5 class="mb-4">Android Training and Development</h5>
@@ -271,24 +273,34 @@
                         <div class="position-relative overflow-hidden">
                             <img class="img-fluid" src="img/course-2.jpg" alt="">
                             <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                              <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a> 
+                              <!-- <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>  -->
                                
-                               <!-- <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a> -->
-                               <!-- <button id="showInfo3" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">
+                              <button id="showInfo4" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">
                                 Read More
                               </button>
                             
-                              <div id="infoBox3" class="info-box3 bg-white h-64 w-64 mt-4 shadow-md">
-                                <p>This is information Box about Open infotech</p>
-                                <p>We are a mobile app development company. Setting a benchmark in making quality mobile apps, we are now perceived as one of the best entities providing end to end solutions for mobile apps. We are highly skilled and immensely motivated team of technical experts in our line of business.</p>
+                              <div id="infoBox4" class="info-box bg-primary text-white w-100 p-4 shadow-md rounded-md">
+                                <p>Open Infotech</p>
+                                <p>We are a mobile app development company. 
+                                    Setting a benchmark in making quality mobile apps, we are now perceived as one of the best entities providing end to end solutions for mobile apps. We are highly skilled and immensely motivated team of technical experts in our line of business.</p>
                               </div>
                             
                               <script>
-                                document.getElementById('showInfo3').addEventListener('click', function () {
-                                  document.getElementById('infoBox3').style.display = 'block';
+                                const showInfoButton4 = document.getElementById('showInfo4');
+                                const infoBox4 = document.getElementById('infoBox4');
+                            
+                                showInfoButton4.addEventListener('click', function () {
+                                  infoBox4.style.display = 'block';
+                                });
+                            
+                                document.addEventListener('click', function (event) {
+                                  const isClickInside = infoBox4.contains(event.target) || showInfoButton4.contains(event.target);
+                            
+                                  if (!isClickInside) {
+                                    infoBox4.style.display = 'none';
+                                  }
                                 });
                               </script>
-                             -->
                             </div>
                         </div>
 
@@ -299,7 +311,7 @@
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-transparant"></small>
                                 <small>(123)</small>
                             </div>
                             <h5 class="mb-4">ios Training and Development</h5>
@@ -317,23 +329,33 @@
                             <img class="img-fluid" src="img/course-3.jpg" alt="">
                             <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
                                 <!-- <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a> -->
-                                    <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a> 
-
-                                <!-- <button id="showInfo4" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">
-                                    Read More
-                                  </button>
-                                
-                                  <div id="infoBox4" class="info-box4 bg-white h-64 w-64 mt-4 shadow-md">
-                                    <p>This is information Box about Open infotech</p>
-                                    <p>We are a mobile app development company. Setting a benchmark in making quality mobile apps, we are now perceived as one of the best entities providing end to end solutions for mobile apps. We are highly skilled and immensely motivated team of technical experts in our line of business.</p>
-                                  </div>
-                                
-                                  <script>
-                                    document.getElementById('showInfo4').addEventListener('click', function () {
-                                      document.getElementById('infoBox4').style.display = 'block';
-                                    });
-                                  </script>
-                            -->
+                                    <!-- <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>  -->
+                                    <button id="showInfo5" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">
+                                        Read More
+                                      </button>
+                                    
+                                      <div id="infoBox5" class="info-box bg-primary text-white w-100 p-4 shadow-md rounded-md">
+                                        <p>Open Infotech</p>
+                                        <p>We are a mobile app development company. 
+                                            Setting a benchmark in making quality mobile apps, we are now perceived as one of the best entities providing end to end solutions for mobile apps. We are highly skilled and immensely motivated team of technical experts in our line of business.</p>
+                                      </div>
+                                    
+                                      <script>
+                                        const showInfoButton5 = document.getElementById('showInfo5');
+                                        const infoBox5 = document.getElementById('infoBox5');
+                                    
+                                        showInfoButton5.addEventListener('click', function () {
+                                          infoBox5.style.display = 'block';
+                                        });
+                                    
+                                        document.addEventListener('click', function (event) {
+                                          const isClickInside = infoBox5.contains(event.target) || showInfoButton5.contains(event.target);
+                                    
+                                          if (!isClickInside) {
+                                            infoBox5.style.display = 'none';
+                                          }
+                                        });
+                                      </script>
                             </div>
                         </div>
                         <div class="text-center p-4 pb-0">
@@ -342,8 +364,8 @@
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
                                 <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-transparant"></small>
+                                <small class="fa fa-star text-blank"></small>
                                 <small>(123)</small>
                             </div>
                             <h5 class="mb-4">Digital marketing Training and Development</h5>
@@ -360,6 +382,7 @@
     </div>
     <!-- Courses End -->
 
+  
 
     <!-- Testimonial Start -->
     <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
